@@ -8,7 +8,7 @@ import theme from '../../styles/theme'
 const ThemeContainer: React.FC = ({ children }) => {
   return (
     <ChakraThemeProvider theme={theme}>
-      <ColorModeProvider value="light">
+      <ColorModeProvider value="dark">
         <EmotionThemeProvider theme={theme}>
           <CSSReset />
           {children}
