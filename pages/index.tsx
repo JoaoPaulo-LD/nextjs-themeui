@@ -1,7 +1,11 @@
 // import Head from 'next/head'
 
+import { Heading } from '@chakra-ui/core'
+import { jsx } from '@emotion/core'
+import { render } from 'react-dom'
+
 export default function Home() {
   return (
-    <h1>Hello World!</h1>
+    <Heading size="sm">Hello World!</Heading>
   )
 }
